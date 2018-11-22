@@ -50,7 +50,7 @@ for submission in subreddit.hot(limit=25):
         
         if (re.search("Lime", submission.title, re.IGNORECASE) and BirdFlag == False):
             submission.reply("Boop boop.")
-            print("KiwiBot replying to Lime text: ", submission.title)
+            print("KiwiBot replying to Lime text: ", submissin.title)
             posts_replied_to.append(submission.id)
 
 
